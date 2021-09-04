@@ -1,0 +1,23 @@
+- change age to int
+- change hypertension to int
+- change heart disease to int
+- change stroke to int
+
+# converting hypertension, heart_disease and stroke into int
+data['age'] = data['age'].astype(int)
+data['hypertension'] = data['hypertension'].astype(int)
+data['heart_disease'] = data['heart_disease'].astype(int)
+data['stroke'] = data['stroke'].astype(int)
+
+
+# show data
+data.head()
+
+- label encoding on ever_married
+- label encoding on residence_type 
+
+# converting 'ever_married' categorical feature to numerical feature
+data['ever_married'] = data['ever_married'].replace({'Yes':'1', 'No': '0'}).astype(int)
+
+# show data
+data.head()
