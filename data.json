@@ -10,7 +10,21 @@
         },
         "time": {
             "time_to_train_final_model": 0.0029,
-            "inference_time_on_final_model": 0.2504
+            "inference_time_on_final_model": 0.2569
+        }
+    },
+    "svm": {
+        "scores_vanilla": {
+            "with_stroke": 82.657,
+            "without_stroke": 80.872
+        },
+        "scores_after_hp_tuning": {
+            "with_stroke": 96.355,
+            "without_stroke": 96.304
+        },
+        "time": {
+            "time_to_train_final_model": 1.0842,
+            "inference_time_on_final_model": 0.2019
         }
     }
 }
