@@ -1,1 +1,1 @@
-# Stroke Prediction
+# Predicting Stroke using Various Classification Methods
