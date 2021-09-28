@@ -13,8 +13,8 @@
             "without_stroke": 0.328
         },
         "time": {
-            "time_to_train_final_model": 3.006,
-            "inference_time_on_final_model": 203.736
+            "time_to_train_final_model": 3.7,
+            "inference_time_on_final_model": 417.14
         }
     },
     "svm": {
@@ -31,8 +31,26 @@
             "without_stroke": 19.082
         },
         "time": {
-            "time_to_train_final_model": 971.898,
-            "inference_time_on_final_model": 190.078
+            "time_to_train_final_model": 2334.035,
+            "inference_time_on_final_model": 459.87
+        }
+    },
+    "rf": {
+        "scores_vanilla": {
+            "with_stroke": 97.662,
+            "without_stroke": 97.762
+        },
+        "scores_after_hp_tuning": {
+            "with_stroke": 97.824,
+            "without_stroke": 97.919
+        },
+        "percentage_increase": {
+            "with_stroke": 0.166,
+            "without_stroke": 0.161
+        },
+        "time": {
+            "time_to_train_final_model": 1.3799,
+            "inference_time_on_final_model": 0.0806
         }
     }
 }
