@@ -1,0 +1,16 @@
+{
+    "knn": {
+        "scores_vanilla": {
+            "with_stroke": 96.813,
+            "without_stroke": 96.909
+        },
+        "scores_after_hp_tuning": {
+            "with_stroke": 97.134,
+            "without_stroke": 97.227
+        },
+        "time": {
+            "time_to_train_final_model": 0.0029,
+            "inference_time_on_final_model": 0.2504
+        }
+    }
+}
