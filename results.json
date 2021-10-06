@@ -34,5 +34,23 @@
             "time_to_train_final_model": 936.506,
             "inference_time_on_final_model": 209.133
         }
+    },
+    "rf": {
+        "scores_vanilla": {
+            "with_stroke": 97.662,
+            "without_stroke": 97.762
+        },
+        "scores_after_hp_tuning": {
+            "with_stroke": 97.824,
+            "without_stroke": 97.919
+        },
+        "percentage_increase": {
+            "with_stroke": 0.166,
+            "without_stroke": 0.161
+        },
+        "time": {
+            "time_to_train_final_model": 1.3958,
+            "inference_time_on_final_model": 0.0809
+        }
     }
 }
