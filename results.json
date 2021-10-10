@@ -49,8 +49,8 @@
             "without_stroke": 0.161
         },
         "time": {
-            "time_to_train_final_model": 1.3958,
-            "inference_time_on_final_model": 0.0809
+            "time_to_train_final_model": 1407.913,
+            "inference_time_on_final_model": 102.731
         }
     }
 }
