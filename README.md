@@ -8,7 +8,7 @@ Clone this repository and cd into the project directory
 ```
 cd Predicting-Stroke-using-Various-Classification-Methods
 ```
-Create a new conda environment and install packages
+Create a new conda environment and install all packages
 ```
 conda env create -f environment.yml
 ```
@@ -20,6 +20,7 @@ Add this conda environment to the jupyter notebook kernel list
 ```
 python -m ipykernel install --user --name='stroke-prediction'
 ```
+Now this environment will appear as a kernel to be used with Jupyter notebook
 
 ## Download the thesis
 - Download from the University archive here, you will need to be signed in on the University WiFi -> https://dea.lib.unideb.hu/dea/handle/2437/324635
